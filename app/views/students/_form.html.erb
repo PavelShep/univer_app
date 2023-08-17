@@ -17,13 +17,27 @@
             <div class="row">
               <div class="input-field col s12">
                 <%= f.text_field :email, placeholder: "Enter your email address" %>
-                <%= f.label :email %>
+                <%= f.label :email, class:"active" %>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <%= f.password_field :password, placeholder: "Enter your password" %>
+                <%= f.label :password, class:"active" %>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field col s12">
-                <%= f.submit "Save", class: "btn orange waves-effect waves-light center" %>
+                <%= f.password_field :password_confirmation, placeholder: "Confirm your password" %>
+                <%= f.label :password_confirmation, class:"active" %>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <%= f.button "Save", class: "btn orange waves-effect waves-light center" %>
               </div>
             </div>
           <% end %>
