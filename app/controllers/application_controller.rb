@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+  before_action :require_user
+  
   # to be visible also in the views
   helper_method :current_user, :logged_in?
 
