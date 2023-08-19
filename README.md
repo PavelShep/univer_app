@@ -1,5 +1,7 @@
 # University App
 
+![univer_app](https://raw.githubusercontent.com/PavelShep/PavelShep/main/uploads/univer_app.png)
+
 The University App is a web application designed to simplify the process of course enrollment for students. This application leverages the power of Ruby on Rails 5 to provide an intuitive and user-friendly platform for students to browse, select, and enroll in courses offered by the university.
 
 ## Features
